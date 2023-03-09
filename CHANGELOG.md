@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.8.0](https://github.com/taikoxyz/taiko-mono/compare/taiko-mono-v0.7.0...taiko-mono-v0.8.0) (2023-03-09)
+
+
+### Features
+
+* **bridge-ui:** fetch transactions from relayer api ([#13244](https://github.com/taikoxyz/taiko-mono/issues/13244)) ([9732cc0](https://github.com/taikoxyz/taiko-mono/commit/9732cc084ed99196a4cd2ccedf9187af4d289ed6))
+* **bridge-ui:** support both bull and horse tokens on the bridge UI ([#13249](https://github.com/taikoxyz/taiko-mono/issues/13249)) ([f9f38bb](https://github.com/taikoxyz/taiko-mono/commit/f9f38bb075c02c7976e0d04c84e4b8b5ac255644))
+* **protocol:** let `PlonkVerifier` return `keccak256("taiko")` ([#13277](https://github.com/taikoxyz/taiko-mono/issues/13277)) ([8ca632c](https://github.com/taikoxyz/taiko-mono/commit/8ca632ce9263219a37368d1f0f84a44cbb369794))
+* **protocol:** tokens can only mint once ([#13252](https://github.com/taikoxyz/taiko-mono/issues/13252)) ([72d152b](https://github.com/taikoxyz/taiko-mono/commit/72d152b7d998b9f306a12823df964a2da18687dd))
+
+
+### Bug Fixes
+
+* **bridge-ui:** minor transactions list fix ([#13266](https://github.com/taikoxyz/taiko-mono/issues/13266)) ([4e78865](https://github.com/taikoxyz/taiko-mono/commit/4e788655ebd508eca3e1665ecb50f3010d2f51af))
+* **protocol:** make download solc script can run outside the protocol dir ([#13263](https://github.com/taikoxyz/taiko-mono/issues/13263)) ([7cd7787](https://github.com/taikoxyz/taiko-mono/commit/7cd77873d0ce1e5f8b43167a8009327cca4200c3))
+* **protocol:** Wrong calculation when minting ERC20 tokens ([#13250](https://github.com/taikoxyz/taiko-mono/issues/13250)) ([5920b7e](https://github.com/taikoxyz/taiko-mono/commit/5920b7eee377e913c10b5b78384f24712808f179))
+* **relayer:** estimate gas for tx, set gas to 2.5mil if not estimatable. works now. ([#13271](https://github.com/taikoxyz/taiko-mono/issues/13271)) ([3913ca5](https://github.com/taikoxyz/taiko-mono/commit/3913ca52242913dfb9502488f0a5558724f9ef2b))
+* **website,bridge-ui:** broken docs link + remove deprecated note in docs ([#13259](https://github.com/taikoxyz/taiko-mono/issues/13259)) ([912c155](https://github.com/taikoxyz/taiko-mono/commit/912c15595d7b0e3e2b4ec62fbcebeaf9dbc9db66))
+
 ## [0.7.0](https://github.com/taikoxyz/taiko-mono/compare/taiko-mono-v0.6.0...taiko-mono-v0.7.0) (2023-03-01)
 
 
